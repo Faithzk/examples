@@ -1,0 +1,13 @@
+requirejs.config({
+	baseUrl:'js',
+	paths:{
+		'angular':'../libs/angular.min',
+		'angularAMD':'../libs/angularAMD.min',
+		'uiRouter':'../libs/angular-ui-router.min'
+	},
+	shim:{
+		'angularAMD':['angular'],
+		'uiRouter':['angular']
+	},
+	deps:['app']//启动app.js文件
+});

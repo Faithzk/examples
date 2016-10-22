@@ -1,0 +1,20 @@
+{
+  "name": "angular",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Faithzk"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularAMD": "^0.2.1"
+  }
+}
